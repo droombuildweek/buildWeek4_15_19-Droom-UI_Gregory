@@ -183,7 +183,8 @@ img {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin-top: 2rem;
 }
 @media (max-width: 500px) {
   .main-navigation .nav-container {
@@ -191,10 +192,6 @@ img {
     justify-content: center;
     padding-top: 10px;
   }
-}
-.main-navigation .nav-container .logo-heading {
-  float: left;
-  justify-content: flex-start;
 }
 @media (max-width: 500px) {
   .main-navigation .nav-container .logo-heading {
@@ -204,8 +201,8 @@ img {
 .main-navigation .nav-container .logo-heading .navbar {
   width: 350px;
   display: flex;
-  justify-content: space-between;
-  padding-right: 2rem;
+  justify-content: space-around;
+  background: #000;
 }
 @media (max-width: 500px) {
   .main-navigation .nav-container .logo-heading .navbar {
@@ -217,5 +214,34 @@ img {
   font-size: 1.6rem;
   color: #212529;
   text-decoration: none;
-  justify-content: flex-end;
+}
+.main-navigation .nav-container .logo-heading .navbar navbar a:hover {
+  background-color: #000;
+}
+.home .intro {
+  padding: 90px 0 10px;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home .intro img {
+  max-width: 100%;
+  height: auto;
+}
+.home .intro h2 {
+  margin-top: 20px;
+}
+.home .content-section {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.home .content-section .text-content {
+  width: 48%;
+  padding-right: 1%;
+}
+@media (max-width: 500px) {
+  .home .content-section .text-content {
+    width: 100%;
+    padding: 0;
+  }
 }
