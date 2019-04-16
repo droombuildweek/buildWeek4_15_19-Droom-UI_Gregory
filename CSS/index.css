@@ -185,6 +185,7 @@ img {
   align-items: center;
   justify-content: space-between;
   margin-top: 2rem;
+  margin-right: 1rem;
 }
 @media (max-width: 500px) {
   .main-navigation .nav-container {
@@ -198,33 +199,29 @@ img {
     font-size: 3rem;
   }
 }
-.main-navigation .nav-container .logo-heading .navbar {
+.main-navigation .nav-container .navbar {
   width: 350px;
   display: flex;
   justify-content: space-around;
-  background: #000;
 }
 @media (max-width: 500px) {
-  .main-navigation .nav-container .logo-heading .navbar {
+  .main-navigation .nav-container .navbar {
     width: 100%;
     justify-content: space-around;
   }
 }
-.main-navigation .nav-container .logo-heading .navbar a {
+.main-navigation .nav-container .navbar a {
   font-size: 1.6rem;
   color: #212529;
   text-decoration: none;
 }
-.main-navigation .nav-container .logo-heading .navbar navbar a:hover {
-  background-color: #000;
+.main-navigation .nav-container .navbar .navbar a:hover {
+  background-color: #334455;
+  text-decoration: underline;
 }
 .home .intro {
   padding: 90px 0 10px;
   border-bottom: 2px dashed #C0C0C0;
-}
-.home .intro img {
-  max-width: 100%;
-  height: auto;
 }
 .home .intro h2 {
   margin-top: 20px;

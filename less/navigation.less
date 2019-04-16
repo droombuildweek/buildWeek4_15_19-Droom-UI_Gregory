@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 2rem;
+    margin-right: 1rem;
 
     @media @mobile {
       flex-wrap: wrap;
@@ -20,12 +21,12 @@
       @media @mobile {
         font-size: 3rem;
       }
-
+    }
       .navbar {
         width: 350px;
         display: flex;
         justify-content: space-around;
-        background: #000;
+        
   
         @media @mobile {
           width: 100%;
@@ -39,11 +40,12 @@
           text-decoration: none;
           
         }
-        navbar a:hover {
-          background-color: #000;
+        .navbar a:hover {
+          background-color: #334455;
+          text-decoration: underline;
         }
         
       }
-    }
+    
   }  
 } // .main-navigation
