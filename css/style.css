@@ -76,6 +76,11 @@ p {
   }
 }
 
+.twitter {
+  height: 25px;
+  width: 25px;
+}
+
 .icon-block {
   padding: 0 15px;
 }
