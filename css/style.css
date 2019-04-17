@@ -28,7 +28,6 @@ nav .brand-logo {
   transform: translateY(4px);
 }
 
-.btn &:hover
 
 p {
   line-height: 2rem;
@@ -67,7 +66,7 @@ p {
     top: 10%;
   }
 
-  #download-button {
+  /* #download-button {
   padding: 4px;
   font-size: 11px;
   text-align: center;
@@ -77,7 +76,7 @@ p {
   border: none;
   border-radius: 10px;
   box-shadow: 0 9px #999;
-  }
+  } */
 }
 
 @media only screen and (max-width : 600px) {
@@ -88,7 +87,7 @@ p {
 
 .twitter {
   height: 15px;
-  width: 20px;
+  width: 20px
 }
 
 .icon-block {
