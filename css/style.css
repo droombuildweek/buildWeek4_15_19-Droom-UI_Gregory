@@ -34,6 +34,16 @@ p {
   line-height: 2rem;
 }
 
+
+.index-banner {
+  width: 50%
+  
+}
+
+.parallax img {
+  width: 50px;
+}
+
 .sidenav-trigger {
   color: #26a69a;
 }
