@@ -78,7 +78,7 @@ li {
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
-    position: absolute;
+    /* position: absolute; */
     top: 40%;
   }
   #index-banner .section {
@@ -94,7 +94,7 @@ li {
   }
   #index-banner1 .section {
     top: 0;
-    display: none;
+    /* display: none; */
   }
   
   #download-button {
@@ -107,9 +107,7 @@ li {
   height: 15px;
   width: 20px
 }
-th {
-  font-size: 1.25rem;
-}
+
 .icon-block {
   padding: 0 15px;
 }
