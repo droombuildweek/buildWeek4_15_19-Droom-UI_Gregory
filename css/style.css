@@ -29,7 +29,20 @@ nav .brand-logo {
 }
 
 
+/* .header {
+  font-weight: bold; 
+} */
+
+.work-img{
+  height: 65%;
+  width: 65%
+}
+
 p {
+  line-height: 2rem;
+}
+
+li {
   line-height: 2rem;
 }
 
