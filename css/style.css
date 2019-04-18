@@ -29,7 +29,20 @@ nav .brand-logo {
 }
 
 
+/* .header {
+  font-weight: bold; 
+} */
+
+.work-img{
+  height: 65%;
+  width: 65%
+}
+
 p {
+  line-height: 2rem;
+}
+
+li {
   line-height: 2rem;
 }
 
@@ -65,22 +78,17 @@ p {
   #index-banner .section {
     top: 10%;
   }
+  #index-banner1 .section {
+    top: 10%
+  }
 
-  /* #download-button {
-  padding: 4px;
-  font-size: 11px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: #fff;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 9px #999;
-  } */
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
+    top: 0;
+  }
+  #index-banner1 .section {
     top: 0;
   }
 }
