@@ -41,7 +41,9 @@ nav .brand-logo {
 p {
   line-height: 2rem;
 }
-
+.font {
+  font-size: 1.5rem;
+}
 li {
   line-height: 2rem;
 }
@@ -70,6 +72,10 @@ li {
     width: 100%;
   }
 
+  #download-button1 {
+    margin-bottom: 1.5rem;
+  }
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -78,18 +84,22 @@ li {
   #index-banner .section {
     top: 10%;
   }
-  #index-banner1 .section {
-    top: 10%
-  }
+  
 
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
-    top: 0;
+    top: 5%;
   }
   #index-banner1 .section {
     top: 0;
+    display: none;
+  }
+  
+  #download-button {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
@@ -97,7 +107,9 @@ li {
   height: 15px;
   width: 20px
 }
-
+th {
+  font-size: 1.25rem;
+}
 .icon-block {
   padding: 0 15px;
 }
